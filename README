@@ -1,0 +1,9 @@
+Sample implementation of the famous Shellsort:
+
+  http://en.wikipedia.org/wiki/Shellsort
+
+This has always been one of my favorite algorithms. A timing test is included, comparing it to std::sort(), which typically uses a variant of quicksort and soundly trounces it.
+
+Compile with:
+
+  g++ -std=c++0x -O3 test.cpp
