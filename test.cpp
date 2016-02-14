@@ -4,9 +4,6 @@
 #include <vector>
 #include <sys/time.h>
 
-double time(std::function<void()> f) {
-}
-
 int main()
 {
   // Generate random vector
